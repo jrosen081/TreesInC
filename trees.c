@@ -23,13 +23,9 @@ void makeTree(tree* aTree, int val) {
 	aTree->right = NULL;
 }
 
-/* Gets the maximum of two numbers */
+/* Gets the max of two integers */
 int maximum(int val1, int val2) {
-	if (val1 > val2) {
-		return val1;
-	} else {
-		return val2;
-	}
+	return val1 > val2 ? val1 : val2;
 }
 
 /* Gets the max value using an accumulator */
